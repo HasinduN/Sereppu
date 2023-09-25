@@ -176,3 +176,15 @@ button:hover {
 .product:hover img {
   opacity: 0.7;
 }
+
+.product .buy-btn {
+  background: coral;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s all;
+}
+
+.product:hover .buy-btn {
+  transform: translateY(0);
+  opacity: 1;
+}
